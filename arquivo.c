@@ -19,7 +19,7 @@ void obtemRanking(struct pontuacao ranking[3]) {
     } else {
         total_lido = fread(ranking, sizeof(struct pontuacao), 3, arq);
         if (total_lido == 3) {
-            printf("\nSucesso!\n");
+            //printf("\nSucesso!\n");
         } else
             printf("Erro na gravação dos dados");
     }
@@ -34,7 +34,7 @@ void gravaRanking(struct pontuacao ranking[3]) {
     else {
         total_gravado = fwrite(ranking, sizeof(struct pontuacao), 3, arq);
         if (total_gravado == 3) {
-            printf("\nSucesso na gravação!\n");
+            //printf("\nSucesso na gravação!\n");
         } else
             printf("\nErro na gravação dos dados");
     }

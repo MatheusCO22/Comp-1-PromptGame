@@ -1,6 +1,3 @@
-// INCLUA EM SEU CODIGO AS FUNCOES randomInteger, geraMapa E atualizaMapa
-// ATENCAO: NAO ALTERE NENHUMA DESSAS TRES FUNCOES
-
 int pos_inicial_avatar[2];
 
 int * getPosicaoInicial(){
