@@ -1,3 +1,5 @@
+#include "cores.h"
+
 int pos_inicial_avatar[2];
 
 int * getPosicaoInicial(){
@@ -110,7 +112,6 @@ geraMapa(mapa, 1);
 
 // TODA VEZ QUE VOCE DESEJAR ATUALIZAR UM MAPA, BASTA CHAMAR A FUNCAO atualizaMapa, conforme o exemplo a seguir
 atualizaMapa(mapa);
-
 */
 
 //A PARTIR DAQUI VOCÊS ENCONTRAM UM PROGRAMA-EXEMPLO DE COMO USAR AS FUNÇÕES PARA GERAÇÃO E ATUALIZAÇÃO DOS MAPAS
@@ -141,9 +142,9 @@ void imprimeMapa(int mapa[10][10]) {
                 printf("    ", mapa[i][j]);
             else if (mapa[i][j]==1)
                 //printf(YEL " 1  " RESET);
-                printf(YEL " \u2603  " RESET);
+                printf(YEL " \u263B  " RESET);
             else if (mapa[i][j]==2)
-                printf(YEL " 2  " RESET);
+                printf(WHT " \u25C9  " RESET);
             else if (mapa[i][j]==3)
                 printf(RED " \u2620  " RESET);
             else if (mapa[i][j]==4)

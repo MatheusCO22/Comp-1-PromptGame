@@ -1,0 +1,8 @@
+1;O;Na trigonometria, os chamados ângulos notáveis são:;5;30º, 60º e 90º;35º, 45º e 90º;25º, 50º e 100º;0º, 90º e 180º;30º, 45º e 60º;
+2;N;Qual a amplitude da função f(x) = 3sen(x)?;6;
+3;N; Qual a área sob o gráfico de f(x) = sen(x) entre x = 0 e x = pi?;2;
+4;O;O Teorema Fundamental do Cálculo mostra a conexão entre:;2;Derivadas de primeira e segunda ordem;Derivadas e integrais;Integrais definidas e integrais indefinidas;Integrais e o cálculo de áreas;Integrais duplas e integrais triplas;
+5;O;O chamado Teorema do confronto também é popularmente conhecido como:;3;Teorema do hot-dog;Teorema do aperto;Teorema do sanduíche;Teorema da convergência;Teorema de Pitágoras;
+6;O;O Domínio e a Imagem da função f(x) = ksen(2x);5;Df = ℝ, Im(f) = (-1,1);Df = ℝ, Im(f) = [-1,1];Df = (-∞,∞), Im(f) = (-k,k);Df = [0,∞), Im(f) = [-k,k];Df = (-∞,∞), Im(f) = [-k,k];
+7;O;Uma função admite função inversa se for:;3;for injetora;for linear;for bijetora;for sobrejetora;for quadrática;
+8;N;Qual o resultado da expressão log 72 + log(2/3) − log 48?;0;
